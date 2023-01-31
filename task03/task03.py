@@ -8,9 +8,6 @@
 # 123456 -> no
 ticket = int(input("Your ticket is: "))
 
-# last_operation = ticket // 10
-# last_operation = last_operation % 10
-# result = (ticket // 100) + (ticket % 10) + last_operation
 first_three_numbers = ticket / 1000
 
 last_operation1 = first_three_numbers // 10
